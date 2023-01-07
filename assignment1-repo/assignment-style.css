@@ -35,7 +35,7 @@ header {
   margin: 30px 0 0 1100px;
   font-size: 20px;
   padding: 20px;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 /* main style */
@@ -43,6 +43,7 @@ header {
   background-image: url("/images/person.png");
   background-repeat: no-repeat;
   height: 723.3px;
+  align-items: center;
 }
 
 .main-title {
@@ -64,35 +65,63 @@ header {
 }
 
 /* plans info */
+.my-plans {
+  margin: 100px 0px 20px 150px;
+}
+.section-title {
+  color: rgba(21, 20, 20, 1);
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 130px;
+}
 .plans-info {
   display: flex;
-  align-items: center;
-  padding: 20px 20px;
-  line-gap-override: 25px;
+  gap: 40px;
+  padding-left: 70px;
 }
 
-.title{
-  color: #151414;
-  font-size: 40px;
+.plan {
+  margin-top: 120px;
+}
+
+.plan-title {
   font-weight: 700;
-  text-align: center;
-  padding: 120px 0px 45px 0px;
-}
-
-.plan .plan-title {
+  font-size: 30px;
   color: #151414;
-  font-weight: 700;
-  font-size: 28px;
-  
 }
 
-.plan .plan-description{
+.plan-description {
   font-weight: 500;
-  font-size: 24px;
+  font-size: 25px;
+  color: #737272;
 }
-.plan{
-  gap: 100px 100px;
+/* watch content */
+.watch-img {
+  background-image: url("/images/gradient2.png"), url("/images/watch.png");
+  background-repeat: no-repeat;
+  width: 1140px;
+  height: 300px;
+  margin: 40px 0px 0px 125px;
+  padding-left: 50px;
+}
+
+.watch-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #ffffff;
+  padding: 55px 500px 60px 110px;
+}
+
+.watch-button {
+  font-weight: 600;
+  font-size: 20px;
+  width: 160px;
+  height: 64px;
+  color: #005FAC;
   margin-left: 100px;
+  border-radius: 10px;
   
 }
+
 
