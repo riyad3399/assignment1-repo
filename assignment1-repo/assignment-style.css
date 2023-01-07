@@ -8,6 +8,7 @@ header {
   height: 800px;
   background-image: url("../images/banner/banner2.png");
   background-size: cover;
+  
 }
 
 .header-content {
@@ -39,10 +40,28 @@ header {
 }
 
 /* main style */
-.my-failures {
-  display: flex;
-  width: 1070px;
-  height: 720px;
+.main-item {
+  background-image: url("/images/person.png");
+  background-repeat: no-repeat;
+  height: 723.3px;
+
 }
 
+.main-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+  padding: 300px 300px 0px 700px;
+}
+
+.main-description {
+  font-weight: 400;
+  font-size: 16px;
+  padding: 20px 300px 0px 700px;
+}
+
+.list-item{
+  color: #444343;
+  padding: 20px 300px 0px 720px;
+}
 
