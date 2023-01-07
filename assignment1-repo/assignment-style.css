@@ -8,7 +8,6 @@ header {
   height: 800px;
   background-image: url("../images/banner/banner2.png");
   background-size: cover;
-  
 }
 
 .header-content {
@@ -44,7 +43,6 @@ header {
   background-image: url("/images/person.png");
   background-repeat: no-repeat;
   height: 723.3px;
-
 }
 
 .main-title {
@@ -60,8 +58,41 @@ header {
   padding: 20px 300px 0px 700px;
 }
 
-.list-item{
+.list-item {
   color: #444343;
   padding: 20px 300px 0px 720px;
+}
+
+/* plans info */
+.plans-info {
+  display: flex;
+  align-items: center;
+  padding: 20px 20px;
+  line-gap-override: 25px;
+}
+
+.title{
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  padding: 120px 0px 45px 0px;
+}
+
+.plan .plan-title {
+  color: #151414;
+  font-weight: 700;
+  font-size: 28px;
+  
+}
+
+.plan .plan-description{
+  font-weight: 500;
+  font-size: 24px;
+}
+.plan{
+  gap: 100px 100px;
+  margin-left: 100px;
+  
 }
 
